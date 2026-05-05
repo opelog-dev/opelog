@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31CE45172FA84B70002A2C22 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = E1A000000000000000000002 /* GoogleMobileAds */; };
+		B00000000000000000000001 /* OpelogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000001 /* OpelogApp.swift */; };
+		B00000000000000000000002 /* OpenItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000002 /* OpenItem.swift */; };
+		B00000000000000000000003 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000003 /* MainTabView.swift */; };
+		B00000000000000000000004 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000004 /* HomeView.swift */; };
+		B00000000000000000000005 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000005 /* AddItemView.swift */; };
+		B00000000000000000000006 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000006 /* ItemDetailView.swift */; };
+		B00000000000000000000007 /* ArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000007 /* ArchiveView.swift */; };
+		B00000000000000000000008 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000008 /* SettingsView.swift */; };
+		B00000000000000000000009 /* ItemCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000009 /* ItemCardView.swift */; };
+		B0000000000000000000000A /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000A /* NotificationService.swift */; };
+		B0000000000000000000000B /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000B /* DateUtils.swift */; };
+		B0000000000000000000000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000C /* Assets.xcassets */; };
+		B0000000000000000000000D /* ItemCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000E /* ItemCategory.swift */; };
+		B0000000000000000000000E /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000F /* L10n.swift */; };
+		B0000000000000000000000F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000010 /* Localizable.xcstrings */; };
+		B00000000000000000000010 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000011 /* AppTheme.swift */; };
+		B00000000000000000000011 /* StatusBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000012 /* StatusBadgeView.swift */; };
+		B00000000000000000000012 /* ImageStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000013 /* ImageStorageService.swift */; };
+		B00000000000000000000013 /* ItemArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000014 /* ItemArtworkView.swift */; };
+		B00000000000000000000014 /* CameraImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000015 /* CameraImagePicker.swift */; };
+		B00000000000000000000015 /* AdConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000016 /* AdConfig.swift */; };
+		B00000000000000000000016 /* AdMobManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000017 /* AdMobManager.swift */; };
+		B00000000000000000000017 /* BannerAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000018 /* BannerAdView.swift */; };
+		B00000000000000000000018 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000020 /* PurchaseManager.swift */; };
+		B00000000000000000000019 /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000021 /* PremiumView.swift */; };
+		B0000000000000000000001A /* OpelogTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000022 /* OpelogTheme.swift */; };
+		B0000000000000000000001B /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000023 /* ThemeManager.swift */; };
+		B0000000000000000000001C /* ThemeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000024 /* ThemeSelectionView.swift */; };
+		B0000000000000000000001D /* ThemePreviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000025 /* ThemePreviewCard.swift */; };
+		B0000000000000000000001E /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000026 /* InfoPlist.xcstrings */; };
+		B0000000000000000000001F /* ReminderTimeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000027 /* ReminderTimeSettings.swift */; };
+		B00000000000000000000020 /* CardPinAccent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000028 /* CardPinAccent.swift */; };
+		B00000000000000000000021 /* PhotoViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000029 /* PhotoViewerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000001 /* OpelogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpelogApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000002 /* OpenItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenItem.swift; sourceTree = "<group>"; };
+		A00000000000000000000003 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A00000000000000000000004 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A00000000000000000000005 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		A00000000000000000000006 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		A00000000000000000000007 /* ArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveView.swift; sourceTree = "<group>"; };
+		A00000000000000000000008 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A00000000000000000000009 /* ItemCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCardView.swift; sourceTree = "<group>"; };
+		A0000000000000000000000A /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		A0000000000000000000000B /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		A0000000000000000000000C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0000000000000000000000D /* Opelog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Opelog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0000000000000000000000E /* ItemCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCategory.swift; sourceTree = "<group>"; };
+		A0000000000000000000000F /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		A00000000000000000000010 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		A00000000000000000000011 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		A00000000000000000000012 /* StatusBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBadgeView.swift; sourceTree = "<group>"; };
+		A00000000000000000000013 /* ImageStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStorageService.swift; sourceTree = "<group>"; };
+		A00000000000000000000014 /* ItemArtworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemArtworkView.swift; sourceTree = "<group>"; };
+		A00000000000000000000015 /* CameraImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraImagePicker.swift; sourceTree = "<group>"; };
+		A00000000000000000000016 /* AdConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdConfig.swift; sourceTree = "<group>"; };
+		A00000000000000000000017 /* AdMobManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobManager.swift; sourceTree = "<group>"; };
+		A00000000000000000000018 /* BannerAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdView.swift; sourceTree = "<group>"; };
+		A00000000000000000000019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00000000000000000000020 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		A00000000000000000000021 /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
+		A00000000000000000000022 /* OpelogTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpelogTheme.swift; sourceTree = "<group>"; };
+		A00000000000000000000023 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		A00000000000000000000024 /* ThemeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSelectionView.swift; sourceTree = "<group>"; };
+		A00000000000000000000025 /* ThemePreviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePreviewCard.swift; sourceTree = "<group>"; };
+		A00000000000000000000026 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		A00000000000000000000027 /* ReminderTimeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTimeSettings.swift; sourceTree = "<group>"; };
+		A00000000000000000000028 /* CardPinAccent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPinAccent.swift; sourceTree = "<group>"; };
+		A00000000000000000000029 /* PhotoViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F00000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31CE45172FA84B70002A2C22 /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C00000000000000000000001 /* Opelog */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000019 /* Info.plist */,
+				A00000000000000000000001 /* OpelogApp.swift */,
+				C00000000000000000000004 /* Models */,
+				C00000000000000000000005 /* Views */,
+				C00000000000000000000006 /* Components */,
+				C00000000000000000000007 /* Services */,
+				C00000000000000000000008 /* Utils */,
+				C00000000000000000000009 /* Resources */,
+				A0000000000000000000000C /* Assets.xcassets */,
+			);
+			path = Opelog;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000000D /* Opelog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				C00000000000000000000001 /* Opelog */,
+				C00000000000000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C00000000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000022 /* OpelogTheme.swift */,
+				A0000000000000000000000E /* ItemCategory.swift */,
+				A00000000000000000000002 /* OpenItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000003 /* MainTabView.swift */,
+				A00000000000000000000004 /* HomeView.swift */,
+				A00000000000000000000005 /* AddItemView.swift */,
+				A00000000000000000000006 /* ItemDetailView.swift */,
+				A00000000000000000000007 /* ArchiveView.swift */,
+				A00000000000000000000008 /* SettingsView.swift */,
+				A00000000000000000000021 /* PremiumView.swift */,
+				A00000000000000000000024 /* ThemeSelectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000006 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000009 /* ItemCardView.swift */,
+				A00000000000000000000012 /* StatusBadgeView.swift */,
+				A00000000000000000000014 /* ItemArtworkView.swift */,
+				A00000000000000000000015 /* CameraImagePicker.swift */,
+				A00000000000000000000018 /* BannerAdView.swift */,
+				A00000000000000000000025 /* ThemePreviewCard.swift */,
+				A00000000000000000000028 /* CardPinAccent.swift */,
+				A00000000000000000000029 /* PhotoViewerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000016 /* AdConfig.swift */,
+				A00000000000000000000017 /* AdMobManager.swift */,
+				A00000000000000000000020 /* PurchaseManager.swift */,
+				A00000000000000000000023 /* ThemeManager.swift */,
+				A0000000000000000000000A /* NotificationService.swift */,
+				A00000000000000000000027 /* ReminderTimeSettings.swift */,
+				A00000000000000000000013 /* ImageStorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000008 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A0000000000000000000000F /* L10n.swift */,
+				A00000000000000000000011 /* AppTheme.swift */,
+				A0000000000000000000000B /* DateUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C00000000000000000000009 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000010 /* Localizable.xcstrings */,
+				A00000000000000000000026 /* InfoPlist.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00000000000000000000001 /* Opelog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G00000000000000000000002 /* Build configuration list for PBXNativeTarget "Opelog" */;
+			buildPhases = (
+				F00000000000000000000001 /* Sources */,
+				F00000000000000000000003 /* Frameworks */,
+				F00000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Opelog;
+			packageProductDependencies = (
+				E1A000000000000000000002 /* GoogleMobileAds */,
+			);
+			productName = Opelog;
+			productReference = A0000000000000000000000D /* Opelog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					D00000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = G00000000000000000000001 /* Build configuration list for PBXProject "Opelog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+				ko,
+				"zh-Hant",
+				"zh-Hans",
+				es,
+				fr,
+				de,
+				it,
+				"pt-BR",
+				id,
+				vi,
+				th,
+			);
+			mainGroup = C00000000000000000000003;
+			packageReferences = (
+				E1A000000000000000000001 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = C00000000000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00000000000000000000001 /* Opelog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F00000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0000000000000000000000C /* Assets.xcassets in Resources */,
+				B0000000000000000000000F /* Localizable.xcstrings in Resources */,
+				B0000000000000000000001E /* InfoPlist.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F00000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000001 /* OpelogApp.swift in Sources */,
+				B0000000000000000000000D /* ItemCategory.swift in Sources */,
+				B00000000000000000000002 /* OpenItem.swift in Sources */,
+				B0000000000000000000001A /* OpelogTheme.swift in Sources */,
+				B0000000000000000000000E /* L10n.swift in Sources */,
+				B00000000000000000000010 /* AppTheme.swift in Sources */,
+				B00000000000000000000003 /* MainTabView.swift in Sources */,
+				B00000000000000000000004 /* HomeView.swift in Sources */,
+				B00000000000000000000005 /* AddItemView.swift in Sources */,
+				B00000000000000000000006 /* ItemDetailView.swift in Sources */,
+				B00000000000000000000007 /* ArchiveView.swift in Sources */,
+				B00000000000000000000008 /* SettingsView.swift in Sources */,
+				B0000000000000000000001C /* ThemeSelectionView.swift in Sources */,
+				B00000000000000000000009 /* ItemCardView.swift in Sources */,
+				B0000000000000000000001D /* ThemePreviewCard.swift in Sources */,
+				B00000000000000000000020 /* CardPinAccent.swift in Sources */,
+				B00000000000000000000021 /* PhotoViewerView.swift in Sources */,
+				B00000000000000000000011 /* StatusBadgeView.swift in Sources */,
+				B0000000000000000000000A /* NotificationService.swift in Sources */,
+				B0000000000000000000001F /* ReminderTimeSettings.swift in Sources */,
+				B00000000000000000000012 /* ImageStorageService.swift in Sources */,
+				B00000000000000000000013 /* ItemArtworkView.swift in Sources */,
+				B00000000000000000000014 /* CameraImagePicker.swift in Sources */,
+				B0000000000000000000000B /* DateUtils.swift in Sources */,
+				B00000000000000000000015 /* AdConfig.swift in Sources */,
+				B00000000000000000000016 /* AdMobManager.swift in Sources */,
+				B00000000000000000000017 /* BannerAdView.swift in Sources */,
+				B00000000000000000000018 /* PurchaseManager.swift in Sources */,
+				B0000000000000000000001B /* ThemeManager.swift in Sources */,
+				B00000000000000000000019 /* PremiumView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		H00000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = C8XP48G794;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		H00000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C8XP48G794;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		H00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Opelog/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Opelog uses the camera so you can take photos of items you want to remember.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Opelog uses your photo library so you can add photos of items you want to remember.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andy.Opelog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		H00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Opelog/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Opelog uses the camera so you can take photos of items you want to remember.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Opelog uses your photo library so you can add photos of items you want to remember.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Andy.Opelog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G00000000000000000000001 /* Build configuration list for PBXProject "Opelog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				H00000000000000000000001 /* Debug */,
+				H00000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G00000000000000000000002 /* Build configuration list for PBXNativeTarget "Opelog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				H00000000000000000000003 /* Debug */,
+				H00000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1A000000000000000000001 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1A000000000000000000002 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1A000000000000000000001 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E00000000000000000000001 /* Project object */;
+}
